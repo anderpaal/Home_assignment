@@ -13,12 +13,20 @@ Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 Current cromedriver version 108.0.0.
 
 ### Running tests
-```npm run wdio``` - run all tests.
+```npm run test``` - run all tests and open Allure reporter.
+
+```npm run apply``` - run --spec test/specs/ApplyHere.ts.
+
+```npm run maxInstalment``` - run --spec test/specs/MaxSampleInstalment.ts.
+
+```npm run schedule``` - run --spec test/specs/PaymentSchedule.ts.
+
+```npm run instalment``` - run --spec test/specs/SampleInstalment.ts.
 
 ### Test results
-Test results will be displayed in the terminal after running all tests. //ToDO
+Test results will be displayed in the terminal after running all tests. 
 
-```npm run report``` - to open allure reporter. //ToDO
+```npm run report``` - to open Allure reporter. 
 
 ### Reasons for choosing TypeScript
 I use TypeScript because it is a type version of javascript with some added features.
@@ -36,7 +44,7 @@ TC 2 - Should navigate to maximum monthly instalment and click on "Apply here" b
 
 ``test/specs/MaxSampleInstalment.ts``
 
-TC 1 - Should check for error message when income is < 800.
+TC 1 - Should check for error message when income is < 800. - FAILS on purpose.
 
 ``test/specs/PaymentSchedule.ts``
 

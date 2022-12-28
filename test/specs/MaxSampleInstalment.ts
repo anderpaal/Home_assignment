@@ -12,7 +12,7 @@ describe('Should check for error message when income is < 800', () => {
         await expect(await MaxPaymentSchedulePage.clickOnNetIncomeField(799)).toBe(true);
     });
 
-    it('should confirm calculator error message', async () => {
-        await expect(await MaxPaymentSchedulePage.getCalculatorErrorMessage('Maksimaalse kuumakse arvutamiseks on netosissetulek liiga väike.')).toBe(true);
+    it('should confirm calculator error message"FAIL ON PURPOSE"', async () => {
+        await expect(await MaxPaymentSchedulePage.getCalculatorErrorMessage('Maksimaalse kuumakse arvutamiseks on netosissetulek liiga väike.')).toBe(false);//FAILS ON PURPOSE. toBe(true)
     });
 })
