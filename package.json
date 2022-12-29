@@ -20,11 +20,11 @@
         "wdio-wait-for": "^3.0.1"
     },
     "scripts": {
-        "test": "npm run clear-results & wdio run wdio.conf.ts & npm run report",
-        "apply": "npm run clear-results & wdio run wdio.conf.ts --spec test/specs/ApplyHere.ts",
-        "maxInstalment": "npm run clear-results & wdio run wdio.conf.ts --spec test/specs/MaxSampleInstalment.ts",
-        "schedule": "npm run clear-results & wdio run wdio.conf.ts --spec test/specs/PaymentSchedule.ts",
-        "instalment": "npm run clear-results & wdio run wdio.conf.ts --spec test/specs/SampleInstalment.ts",
+        "test": "wdio run wdio.conf.ts & npm run report",
+        "apply": "wdio run wdio.conf.ts --spec test/specs/ApplyHere.ts",
+        "maxInstalment": "wdio run wdio.conf.ts --spec test/specs/MaxSampleInstalment.ts",
+        "schedule": "wdio run wdio.conf.ts --spec test/specs/PaymentSchedule.ts",
+        "instalment": "wdio run wdio.conf.ts --spec test/specs/SampleInstalment.ts",
         "report": "allure generate allure-results --clean && allure open",
         "clear-results": "node ./test/allureResults.cleaner.ts"
     }
