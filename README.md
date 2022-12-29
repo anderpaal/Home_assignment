@@ -51,7 +51,7 @@ TC 1 - Should confirm correct navigation by clicking on "Payment schedule" butto
 TC 1 - Should enter leasing data as a private person & confirm calculator change.
 
 ### Chromedrvier
-Current cromedriver version 108.0.0.
+Current Cromedriver version 108.0.0.
 
 ```npm install chromedriver --save-dev``` to update to lates version if not up to date.
 
