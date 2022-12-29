@@ -8,10 +8,6 @@ Make sure to have  [Git](https://git-scm.com) installed.
 ```npm install``` in the root folder of the cloned project to install dependencies.
 Make sure to have [NodeJs](https://nodejs.org/en/) installed.
 
-### Chromedrvier
-```npm install chromedriver --save-dev``` to update to lates version if not up to date.
-Current cromedriver version 108.0.0.
-
 ### Running tests
 ```npm run test``` - run all tests and open Allure reporter.
 
@@ -53,3 +49,10 @@ TC 1 - Should confirm correct navigation by clicking on "Payment schedule" butto
 ``test/specs/SampleInstalment.ts``
 
 TC 1 - Should enter leasing data as a private person & confirm calculator change.
+
+### Chromedrvier
+Current cromedriver version 108.0.0.
+```npm install chromedriver@version --save-dev``` to update to lates version if not up to date.
+
+Chromedriver version 107.0.0 +
+After running ```npm install chromedriver --save-dev``` copy ```"del": "^6.1.1",``` dependencie to package-lock.json "node_modules/chromedriver" and run ```npm install```.
