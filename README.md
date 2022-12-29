@@ -53,7 +53,7 @@ TC 1 - Should enter leasing data as a private person & confirm calculator change
 ### Chromedrvier
 Current cromedriver version 108.0.0.
 
-```npm install chromedriver@ --save-dev``` to update to lates version if not up to date.
+```npm install chromedriver --save-dev``` to update to lates version if not up to date.
 
 Chromedriver version 106.0.0 +
 
