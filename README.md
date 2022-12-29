@@ -60,4 +60,4 @@ If you have Chrome 106 installed on your machine do
 
 Chromedriver version 106.0.0 +
 
-After running ```npm install chromedriver --save-dev``` make sure to copy ```"del": "^6.1.1",``` dependencie to package-lock.json "node_modules/chromedriver" and run ```npm install```.
+After running ```npm install chromedriver --save-dev``` make sure to copy ```"del": "^6.1.1",``` dependency to package-lock.json "node_modules/chromedriver" and run ```npm install```.
